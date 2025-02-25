@@ -305,7 +305,7 @@ Called when an item is moving or resizing. Returns an object with the following 
 
 | property           | type     | description                                                            |
 | ------------------ | -------- | ---------------------------------------------------------------------- |
-| `eventType`        | `string` | retuns either `move` or `resize`                                       |
+| `eventType`        | `string` | returns either `move` or `resize`                                       |
 | `itemId`           | `number` | ID of the item being moved or resized                                  |
 | `time`             | `number` | UNIX timestamp in milliseconds                                         |
 | `edge`             | `string` | on `resize`, returns a value of either `left` or `right`               |
